@@ -16,8 +16,20 @@ all at once.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+You can place only the files that include one logical change in the the staging
+area. If you made two logical changes (in different files), then only place one
+in the staging area before making a commit, and then do the second in a different
+commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+Branches would be helpful when you want to try out a new version of a program
+or add a new feature, but still keep a working version without the new 
+additions. Branches let you have a numbers of different versions, to each of which
+you can keep on making changes. Without branches, you would have to remember 
+different commit numbers for different versions, and it would be trickier to keep
+changing each version.
 
 How do the diagrams help you visualize the branch structure?
 
