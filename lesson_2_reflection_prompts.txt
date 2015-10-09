@@ -41,5 +41,13 @@ to see how commits that were not on a branch would not show up using git log
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches together results in all the changes made from the last commit
+when they were in the same line being combined. All commits from both branches
+will show up in git log in time order. Using git show will show the differences
+between a commit and its parents (which will not necessarily be the commit
+immediately before it since that could be from a separate branch). We represent it
+in the diagram as two branches coming back together to form one brach. The
+parent of each commit is preserved, as in the diagram.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
