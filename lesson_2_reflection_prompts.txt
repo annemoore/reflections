@@ -33,6 +33,11 @@ changing each version.
 
 How do the diagrams help you visualize the branch structure?
 
+They helped me see how the different branches are formed and how it is the 
+parent of each commit that links commits together. It was also very helpful
+to see how commits that were not on a branch would not show up using git log
+(and would be unreachable unless you remembered the git id).
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
