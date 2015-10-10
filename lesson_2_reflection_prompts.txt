@@ -51,3 +51,8 @@ parent of each commit is preserved, as in the diagram.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+A big pro of automatic merging is that it is less time-consuming than doing
+merges manually. It also may be better at finding changes than humans may be.
+A con is that it may make changes that a person familiar with the code would not,
+and no person has looked at the merge to make sure it makes sense.
