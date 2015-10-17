@@ -8,10 +8,8 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 The staging area is an intermediate place where you can place files from the
-working directory before committing them to the repository. It allows you to not
-save all files in the working directory to a single commit. It also lets you
-slowly choose the files you want to place in a commit rather than choose them
-all at once.
+working directory before committing them to the repository. It allows you to choose
+which changed files you want to include in a commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
@@ -44,9 +42,9 @@ the diagram the way we do?
 Merging two branches together results in all the changes made from the last commit
 when they were in the same line being combined. All commits from both branches
 will show up in git log in time order. Using git show will show the differences
-between a commit and its parents (which will not necessarily be the commit
+between a commit and its parent (which will not necessarily be the commit
 immediately before it since that could be from a separate branch). We represent it
-in the diagram as two branches coming back together to form one brach. The
+in the diagram as two branches coming back together to form one branch. The
 parent of each commit is preserved, as in the diagram.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
