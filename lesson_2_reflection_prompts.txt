@@ -4,12 +4,14 @@ The folder turns into a git repository where you can save commits. You need
 to do it to save versions of the files in the folder and presumably to share
 them with others through github.
 
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 The staging area is an intermediate place where you can place files from the
 working directory before committing them to the repository. It allows you to choose
 which changed files you want to include in a commit.
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
@@ -18,6 +20,7 @@ You can place only the files that include one logical change in the the staging
 area. If you made two logical changes (in different files), then only place one
 in the staging area before making a commit, and then do the second in a different
 commit.
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
@@ -29,12 +32,14 @@ you can keep on making changes. Without branches, you would have to remember
 different commit numbers for different versions, and it would be trickier to keep
 changing each version.
 
+
 How do the diagrams help you visualize the branch structure?
 
 They helped me see how the different branches are formed and how it is the 
 parent of each commit that links commits together. It was also very helpful
 to see how commits that were not on a branch would not show up using git log
 (and would be unreachable unless you remembered the git id).
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
@@ -46,6 +51,7 @@ between a commit and its parent (which will not necessarily be the commit
 immediately before it since that could be from a separate branch). We represent it
 in the diagram as two branches coming back together to form one branch. The
 parent of each commit is preserved, as in the diagram.
+
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
