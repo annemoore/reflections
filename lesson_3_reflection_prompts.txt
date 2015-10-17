@@ -19,3 +19,8 @@ Branches allow you to create a new branch within a repository. This allows to wo
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 If you were not going to have internet access for a while, you could still work on the last known state and compare it it the local state.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+One way I've collaborated is by each working on our own version of the files, and then merging after discussing (similar to GitHub, but cruder). It can be hard to keep track of all the changes people have made. Another way is to work on the files one at a time, but then you can't work simultaneously. However, you are sure that your changes are compatible with others'.
